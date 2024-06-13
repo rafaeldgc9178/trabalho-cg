@@ -1,0 +1,54 @@
+{
+    "name": "Comandos",
+    "maps": [
+        {
+            "name": "Joystick",
+            "id": "028e650f-d4ad-4433-9e88-df05903eab47",
+            "actions": [
+                {
+                    "name": "Caminhar",
+                    "type": "Button",
+                    "id": "c0b1515c-15e7-47af-8453-cf613872b872",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interagir",
+                    "type": "Button",
+                    "id": "f800a0c2-6134-4ab0-9a6a-330b19610362",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8371e59e-a809-4e19-b388-8fa95db82347",
+                    "path": "<Joystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Caminhar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cdd90c75-dbe5-4f10-b7a5-bc2b22a88b29",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interagir",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
